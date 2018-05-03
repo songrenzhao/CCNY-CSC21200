@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++/Zhao_Sequence3/main.cpp
+iostream
+-
+cstdlib
+-
+cstring
+-
+sequence3.h
+D:/C++/Zhao_Sequence3/sequence3.h
+
+D:/C++/Zhao_Sequence3/node1.cpp
+node1.h
+D:/C++/Zhao_Sequence3/node1.h
+cassert
+-
+cstdlib
+-
+
+D:/C++/Zhao_Sequence3/node1.h
+cstdlib
+-
+
+D:/C++/Zhao_Sequence3/sequence3.cpp
+cassert
+-
+sequence3.h
+D:/C++/Zhao_Sequence3/sequence3.h
+
+D:/C++/Zhao_Sequence3/sequence3.h
+cstdlib
+-
+node1.h
+D:/C++/Zhao_Sequence3/node1.h
+

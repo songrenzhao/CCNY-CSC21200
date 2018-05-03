@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++/Zhao_rec_function/main.cpp
+iostream
+-
+rec_fun.h
+D:/C++/Zhao_rec_function/rec_fun.h
+
+D:/C++/Zhao_rec_function/rec_fun.cpp
+iostream
+-
+cassert
+-
+rec_fun.h
+D:/C++/Zhao_rec_function/rec_fun.h
+
+D:/C++/Zhao_rec_function/rec_fun.h
+

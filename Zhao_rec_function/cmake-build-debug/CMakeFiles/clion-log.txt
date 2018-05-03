@@ -1,0 +1,4 @@
+"D:\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\C++\Zhao_rec_function
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/C++/Zhao_rec_function/cmake-build-debug

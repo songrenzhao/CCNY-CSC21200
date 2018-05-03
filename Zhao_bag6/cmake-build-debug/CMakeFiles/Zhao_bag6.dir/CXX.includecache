@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++/Zhao_bag6/bag6.h
+cstdlib
+-
+bintree.h
+D:/C++/Zhao_bag6/bintree.h
+bag6.template
+D:/C++/Zhao_bag6/bag6.template
+
+D:/C++/Zhao_bag6/bag6.template
+cassert
+-
+cstdlib
+-
+
+D:/C++/Zhao_bag6/bintree.h
+cstdlib
+-
+bintree.template
+D:/C++/Zhao_bag6/bintree.template
+
+D:/C++/Zhao_bag6/bintree.template
+cassert
+-
+cstdlib
+-
+iomanip
+-
+iostream
+-
+
+D:/C++/Zhao_bag6/main.cpp
+iostream
+-
+cstring
+-
+bag6.h
+D:/C++/Zhao_bag6/bag6.h
+

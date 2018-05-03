@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1507691517 source:d:\c++\zhao_sequence2\main.cpp
+	<iostream>
+	<cstdlib>
+	<string.h>
+	"sequence2.h"
+
+1507694472 source:d:\c++\zhao_sequence2\sequence2.cxx
+	<algorithm>
+	"sequence2.h"
+	<cassert>
+
+1507777950 d:\c++\zhao_sequence2\sequence2.h
+	<cstdlib>
+
