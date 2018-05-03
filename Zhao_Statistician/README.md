@@ -1,9 +1,8 @@
-Computer Science City College of New York 
-  CSc21200 Data Structures, Fall 2017
 Programming Assignment 1  - Implement and Test the Statistician Class
 Modified from a Chapter 2 project at www.cs.colorado.edu/~main/projects/ 
 of Data Structures and Other Objects Using C++,  Second Edition 
 by Michael Main and Walter Savitch 
+
 The Assignment:
 You will implement and test a small class called statistician, which is similar to some of the small classes in Chapter 2 of the text.
 Purposes:
@@ -25,6 +24,7 @@ Other files that you may find helpful:
     You shall compile one of the following files with your stats.cxx and link them to generate your executable:
 stattest.cxx: A simple interactive test program for you to test your implementations.
 statexam.cxx: A non-interactive test program that will be used to grade the correctness of your statistician class.
+
 The Statistician Class
 Discussion of the Assignment
 As indicated above, you will implement a new class called statistician, using a header file (most of which is written for you) and an implementation file (which you will write by yourself). The statistician is a class that is designed to keep track of simple statistics about a sequence of real numbers. There are two member functions that you should understand at an informal level before you proceed any further. The prototypes for these two functions are shown here as part of the statistician class declaration:
@@ -70,6 +70,7 @@ An overloaded + operator which has two statisticians as arguments, and returns a
 An overloaded * operator which allows you to "multiply" a double number times a statistician. Here is the prototype:
           statistician operator *(double scale, const statistician& s);
 This is not a member function. The result of a multiplication such as 2*s is a new statistician that looks as if it had been given all the numbers of s, multiplied by the constant 2. Examples: Suppose that s is a statistician that has been given 1, 2, 3, and u is another statistician. Then the assignment statement u=2*s will result in u behaving as if it had been given the numbers 2, 4, 6. As another example, the assignment statement u=-3*s will result in u behaving as if it had been given the numbers -3, -6, -9. Notice that neither + nor == are member functions. (See Section 2.5 in your textbook and the  notes in lecture 3). The result of s+t is a new statistician that looks as if it had been given all the numbers of the sequence for s, followed by all the numbers of the sequence for t. For example: Suppose that we have three statisticians s, t, and u. The statistician s has been given the numbers 1, 2, 3; the statistician t has been given the numbers 4, 5. Then the assignment statement u=s+t will result in u behaving as if it had been given the five numbers 1, 2, 3, 4, 5.
+
 Hints and Frequently Asked Questions
 The Private Member Variables
 Carefully read the class definition in stats.h. Notice how the private member variables are being used to keep track of information about the statistician's sequence of numbers. The statistician does NOT keep track of all the numbers in the sequence. There is no need to do so, and trying to do so can get you into trouble. Instead, it keeps track of only the information that is relevant to its member functions: How many numbers have been seen? What is the sum of those numbers? If you have seen at least one number, then what are the smallest and largest numbers that you've seen so far? These four items should be your only private member variables.
@@ -157,6 +158,3 @@ What causes these compilation errors:
    // Problem 2:
    if (s1.length == s2.length)
    // You have to call the function. Try (s1.length() == s2.length()).
-Zhigang Zhu ( ds.zhu.ccny@gmail.com), Fall 2017
-
-
